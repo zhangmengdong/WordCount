@@ -1,0 +1,4 @@
+2024-12-10 09:51:32 上午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobResourceUploader >> Method: org.apache.hadoop.mapreduce.JobResourceUploader.uploadFiles(JobResourceUploader.java:64) ]
+WARN:Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-12-10 09:51:32 上午 [Thread: main][ Class:org.apache.hadoop.mapreduce.JobResourceUploader >> Method: org.apache.hadoop.mapreduce.JobResourceUploader.uploadFiles(JobResourceUploader.java:171) ]
+WARN:No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
