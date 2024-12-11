@@ -16,7 +16,7 @@ import java.io.IOException;
  * @Classname Driver
  * @Description TODO
  * @Date 2024/12/9 16:15
- * @Created by Administrator
+ * @Created 测试
  */
 
 public class Driver {
@@ -36,7 +36,7 @@ public class Driver {
 
         FileInputFormat.addInputPath(job,new Path("D:\\hadoop\\input"));
         FileOutputFormat.setOutputPath(job,new Path("D:\\hadoop\\output"));
-
+        //测试提交
         job.waitForCompletion(true);
     }
 }
